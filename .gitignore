@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.vscode/
+
+# Full VASP data, generated training data, models, and simulation output.
+/100/
+/200/
+/300/
+/400/
+/500/
+/600/
+/low_temp_v2/
+/resultsweep_low_temp_v2/
+/result_dual_restricted_drift6/
+/md/
+*.pth
+OUTCAR
+XDATCAR
+POTCAR
+WAVECAR
+CHGCAR
