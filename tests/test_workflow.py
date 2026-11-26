@@ -14,7 +14,7 @@ import torch
 
 import gen_center_all_data as centers
 import gen_force_all_data as forces
-import plot_hist_v2 as sampling
+import plot_hist as sampling
 from dataset_center import VEFeaturesEnergyDataset
 from md_cpu_dual import CPUDualMLFF
 from model_two_force import DualEnergyModelContainer, SubNet
