@@ -56,8 +56,8 @@ RANDOM_SEED = 42
 OUTPUT_DIR = os.path.join(BASE_DIR, "low_temp_v2")
 OUTPUT_FIGURE = "energy_hist_proportional_scheme.png"
 OUTPUT_INDEX_CSV = "selected_frames_proportional_scheme.csv"
-OUTPUT_TREND_FIGURE = "energy_time_trend_all_temperatures_v2.png"
-OUTPUT_MERGED_SELECTED_FIGURE = "energy_hist_selected_merged_all_temperatures_v2.png"
+OUTPUT_TREND_FIGURE = "energy_time_trend_all_temperatures.png"
+OUTPUT_MERGED_SELECTED_FIGURE = "energy_hist_selected_merged_all_temperatures.png"
 OUTPUT_GAUSSIAN_TXT = "gaussian_fit_parameters.txt"
 OUTPUT_BIN_COUNTS_CSV = "selected_frames_proportional_bin_counts.csv"
 

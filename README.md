@@ -63,7 +63,7 @@ using separately supplied weights.
 | Stage | Files |
 | --- | --- |
 | Extract all forces/energies | [ext_force.sh](ext_force.sh), [ext_energy.sh](ext_energy.sh) |
-| Select training frames | [plot_hist_v2.py](plot_hist_v2.py) |
+| Select training frames | [plot_hist.py](plot_hist.py) |
 | Compute reference-indexed BOEs | [boe_cashe.py](boe_cashe.py), [gen_center_all_data.py](gen_center_all_data.py) |
 | Align labels and split datasets | [gen_force_all_data.py](gen_force_all_data.py), [gen_force.py](gen_force.py) |
 | Dataset and shared network | [dataset_center.py](dataset_center.py), [model_two.py](model_two.py) |
@@ -120,7 +120,7 @@ files are not distributed here.
 Run these commands from the repository root:
 
 ```powershell
-python plot_hist_v2.py
+python plot_hist.py
 python gen_center_all_data.py
 python gen_force_all_data.py
 ```
